@@ -25,9 +25,9 @@ const userSchema = new Schema({
         type: Date,
         default: Date.now
     },
-    product: [{
+    ToDoTask: [{
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'Product'
+        ref: 'Todo'
     }],
 })
 
